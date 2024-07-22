@@ -14,7 +14,9 @@ export default {
     themes:[
       "dark",
       "nord",
-      "lemonade"
+      "lemonade",
+      "dracula",
+      "retro"
     ],
     darkTheme: "dark",
     base: true,
