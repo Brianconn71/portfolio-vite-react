@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="hero-content flex-col lg:flex-row">
             <img
             src={heroImage}
-            className="max-w-sm rounded-lg shadow-2xl" />
+            className="mx-2 w-2/3 rounded-lg shadow-2xl" />
             <div>
             <h1 className="text-5xl font-bold">Box Office News!</h1>
             <p className="py-6">
