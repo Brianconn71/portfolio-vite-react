@@ -11,3 +11,5 @@ Currently, two official plugins are available:
 ### Use of
 
 #### Vite, React, Tailwind, Framer Motion, React icons
+
+## TODO: add theme controller

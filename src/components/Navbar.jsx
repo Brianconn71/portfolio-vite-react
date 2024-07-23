@@ -9,7 +9,7 @@ const Navbar = () => {
             <img src={logo} className="mx-2 w-40" alt="Brian connolly.dev logo" />
         </div>
         <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1">
+            <ul className="menu menu-horizontal px-1 text-base">
             <li><a>About Me</a></li>
             <li><a>Experience</a></li>
             <li><a>Education</a></li>
