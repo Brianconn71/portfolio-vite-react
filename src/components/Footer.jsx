@@ -11,9 +11,9 @@ const Footer = () => {
             height={250}
             className="fill-current" />
             <p>
-            ACME Industries Ltd.
+            Brian Connolly
             <br />
-            Providing reliable tech since 1992
+            Developer & Engineer
             </p>
         </aside>
         <nav>
