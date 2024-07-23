@@ -1,42 +1,36 @@
 import React from 'react'
 import logo from '../assets/Brian_Connolly_logo.png'
+import { FaLinkedin, FaGithub, FaMedium, FaTwitterSquare } from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <footer className="footer bg-base-200 text-base-content p-10">
-        <aside>
-        <img
-            src={logo}
-            width={250}
-            height={250}
-            className="fill-current" />
-            <p>
-            Brian Connolly
-            <br />
-            Developer & Engineer
-            </p>
-        </aside>
-        <nav>
-            <h6 className="footer-title">Services</h6>
-            <a className="link link-hover">Branding</a>
-            <a className="link link-hover">Design</a>
-            <a className="link link-hover">Marketing</a>
-            <a className="link link-hover">Advertisement</a>
-        </nav>
-        <nav>
-            <h6 className="footer-title">Company</h6>
-            <a className="link link-hover">About us</a>
-            <a className="link link-hover">Contact</a>
-            <a className="link link-hover">Jobs</a>
-            <a className="link link-hover">Press kit</a>
-        </nav>
-        <nav>
-            <h6 className="footer-title">Legal</h6>
-            <a className="link link-hover">Terms of use</a>
-            <a className="link link-hover">Privacy policy</a>
-            <a className="link link-hover">Cookie policy</a>
-        </nav>
-    </footer>
+    <footer className="footer footer-center bg-primary text-primary-content p-10">
+  <aside>
+    <img src={logo} className="w-40" alt="Brian connolly.dev logo" />
+    <p className="font-bold">
+      Brian Connolly
+      <br />
+      Full-Stack Developer & Engineer
+    </p>
+    <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
+  </aside>
+  <nav>
+    <div className="grid grid-flow-col gap-4 text-3xl">
+      <a>
+        <FaLinkedin />
+      </a>
+      <a>
+        <FaGithub />
+      </a>
+      <a>
+        <FaMedium />
+      </a>
+      <a>
+        <FaTwitterSquare />
+      </a>
+    </div>
+  </nav>
+</footer>
   )
 }
 
