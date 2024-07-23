@@ -6,16 +6,17 @@ const Navbar = () => {
   return (
     <div className="navbar bg-base-100">
         <div className="navbar-start">
-            <img src={logo} width={150} className alt="Brian connolly.dev logo" />
+            <img src={logo} className="mx-2 w-40" alt="Brian connolly.dev logo" />
         </div>
         <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
-            <li><a>Item 1</a></li>
-            <li><a>Item 2</a></li>
-            <li><a>Item 3</a></li>
+            <li><a>About Me</a></li>
+            <li><a>Experience</a></li>
+            <li><a>Education</a></li>
+            <li><a>Projects</a></li>
             </ul>
         </div>
-        <div className="navbar-end gap-5 text-2xl p-3">
+        <div className="navbar-end gap-5 text-3xl p-3">
             <FaLinkedin />
             <FaGithub />
             <FaMedium />
