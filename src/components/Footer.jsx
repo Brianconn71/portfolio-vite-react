@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/Brian_Connolly_logo.png'
+import logo from '../assets/Brian_Connolly-logo.png'
 import { FaLinkedin, FaGithub, FaMedium, FaTwitterSquare } from 'react-icons/fa'
 
 const Footer = () => {

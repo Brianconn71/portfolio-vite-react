@@ -1,12 +1,12 @@
 import React from 'react'
-import logo from '../assets/Brian_Connolly_logo.png'
+import logo from '../assets/Brian_Connolly-logo.png'
 import { FaLinkedin, FaGithub, FaMedium, FaTwitterSquare } from 'react-icons/fa'
 
 const Navbar = () => {
   return (
     <div className="navbar bg-base-100">
         <div className="navbar-start">
-            <img src={logo} className="mx-2 w-40" alt="Brian connolly.dev logo" />
+            <img src={logo} className="mx-2 w-28" alt="Brian connolly.dev logo" />
         </div>
         <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1 text-base">
