@@ -18,7 +18,7 @@ const Hero = () => {
             <p className="my-2 max-w-xl py-6 font-light">
                 {HERO_CONTENT}
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <button className="btn btn-secondary">Get Started</button>
             </div>
         </div>
     </div>

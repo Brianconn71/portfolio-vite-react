@@ -1,6 +1,6 @@
 import React from 'react'
-import { RiNextjsFill } from "react-icons/ri";
-import { SiReact , SiDjango, SiMongodb, SiJavascript, SiTypescript, SiFastapi, SiStreamlit } from "react-icons/si";
+import { RiNextjsFill, RiTailwindCssFill  } from "react-icons/ri";
+import { SiReact , SiDjango, SiMongodb, SiJavascript, SiTypescript, SiFastapi, SiStreamlit, SiDaisyui} from "react-icons/si";
 import { FaPython, FaAws, FaPhp, FaDocker, FaJenkins } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 
@@ -15,6 +15,12 @@ const Technologies = () => {
                 </div>
                 <div className="rounded-2xl border-2 border-base-300 p-4">
                     <RiNextjsFill className="text-7xl"/>
+                </div>
+                <div className="rounded-2xl border-2 border-base-300 p-4">
+                    <RiTailwindCssFill className="text-7xl"/>
+                </div>
+                <div className="rounded-2xl border-2 border-base-300 p-4">
+                    <SiDaisyui className="text-7xl"/>
                 </div>
                 <div className="rounded-2xl border-2 border-base-300 p-4">
                     <SiDjango className="text-7xl"/>
