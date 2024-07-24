@@ -13,13 +13,13 @@ const Experience = () => {
             </div>
             <div className="w-full max-w-xl lg:w-3/4">
               <h6 className="mb-2 font-semibold">
-                {experience.role} - <span className="text-sm text-blue-300">{experience.company}</span>
+                {experience.role} - <span className="text-sm text-slate-400">{experience.company}</span>
               </h6>
               <p className="mb-4 text-neutral-400">
                 {experience.description}
               </p>
               {experience.technologies.map((tech, index) =>(
-                <span key={index} className="mr-2 mt-4 rounded bg-base-300 px-2 py-1 text-sm font-medium text-blue-500">{tech}</span>
+                <span key={index} className="mr-2 mt-4 rounded bg-base-300 px-2 py-1 text-sm font-medium text-slate-500">{tech}</span>
               ))}
             </div>
           </div>
