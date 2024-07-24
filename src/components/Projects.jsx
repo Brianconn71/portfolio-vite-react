@@ -13,12 +13,12 @@ const Projects = () => {
             </figure>
             <div className="card-body w-full lg:w-3/4">
               <h3 className="card-title mb-2 mt-2 font-semibold">{project.title}</h3>
-              <p className="mb-4 text-neutral-400">{project.description}</p>
+              <p className="mb-1 text-neutral-400">{project.description}<div className='mt-4'></div>
               {project.technologies.map((tech, index) => (
-                <span key={index} className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-slate-900">
+                <span key={index} className="mr-2 rounded bg-base-300 px-2 py-1 text-sm font-medium text-slate-900">
                   {tech}
                 </span>
-              ))}
+              ))}</p>
               <div className="card-actions justify-end">
                 <button className="btn btn-secondary">View Site</button>
               </div>
