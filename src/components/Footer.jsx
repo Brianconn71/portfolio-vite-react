@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="footer footer-center bg-primary text-primary-content p-10">
   <aside>
-    <img src={logo} className="w-40" alt="Brian connolly.dev logo" />
+  <a href="https://brianconnolly.dev"><img src={logo} className="w-40" alt="Brian connolly.dev logo" /></a>
     <p className="font-bold">
       Brian Connolly
       <br />
@@ -16,16 +16,16 @@ const Footer = () => {
   </aside>
   <nav>
     <div className="grid grid-flow-col gap-4 text-3xl">
-      <a href="https://www.linkedin.com/in/brian-connolly-0b3791b0/">
+      <a href="https://www.linkedin.com/in/brian-connolly-0b3791b0/" target="_blank">
         <FaLinkedin />
       </a>
-      <a href="https://github.com/Brianconn71">
+      <a href="https://github.com/Brianconn71" target="_blank">
         <FaGithub />
       </a>
-      <a href="https://medium.com/@brian.connolly71">
+      <a href="https://medium.com/@brian.connolly71" target="_blank">
         <FaMedium />
       </a>
-      <a href="https://x.com/Brianconnwebdev">
+      <a href="https://x.com/Brianconnwebdev" target="_blank">
         <FaTwitterSquare />
       </a>
     </div>

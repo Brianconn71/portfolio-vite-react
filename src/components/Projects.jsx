@@ -2,7 +2,7 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div className="container">
+    <div id="projects" className="container">
         <div className="card lg:card-side bg-base-100 shadow-xl">
     <figure>
         <img
