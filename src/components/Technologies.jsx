@@ -6,7 +6,7 @@ import { BiLogoPostgresql } from "react-icons/bi";
 
 const Technologies = () => {
   return (
-    <div id="technologies" className="container border-b bg-base-300 border-base-300 pb-24">
+    <div id="technologies" className="container mx-auto border-b bg-base-200 border-base-300 pb-24">
       <h2 className="my-20 text-center text-4xl">Technologies</h2>
       <div className="flex flex-wrap items-center justify-center gap-4">
         <div className="rounded-2xl border-2 border-base-100 p-4">
