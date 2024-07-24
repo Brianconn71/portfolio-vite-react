@@ -16,16 +16,16 @@ const Footer = () => {
   </aside>
   <nav>
     <div className="grid grid-flow-col gap-4 text-3xl">
-      <a>
+      <a href="https://www.linkedin.com/in/brian-connolly-0b3791b0/">
         <FaLinkedin />
       </a>
-      <a>
+      <a href="https://github.com/Brianconn71">
         <FaGithub />
       </a>
-      <a>
+      <a href="https://medium.com/@brian.connolly71">
         <FaMedium />
       </a>
-      <a>
+      <a href="https://x.com/Brianconnwebdev">
         <FaTwitterSquare />
       </a>
     </div>
