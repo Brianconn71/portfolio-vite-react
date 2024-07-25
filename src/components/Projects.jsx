@@ -27,7 +27,7 @@ const Projects = () => {
         <div className="flex flex-wrap items-center justify-center gap-4">
           {PROJECTS.map((project, index) => (
             <motion.div
-            variants={projects(5)}
+            variants={projects(2)}
             initial="hidden"
             animate="visible"
               key={index}
