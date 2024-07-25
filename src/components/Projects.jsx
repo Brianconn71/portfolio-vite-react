@@ -1,14 +1,35 @@
 import React from "react";
 import { PROJECTS } from "../constants";
+import { motion } from "framer-motion";
 
 const Projects = () => {
+
+  const projects = (delay) => ({
+    hidden: { x: -100, opacity: 0 },
+    visible: {
+      x: 0,
+      opacity: 1,
+      transition: {
+        delay: delay,
+        duration: 1,
+      },
+    },
+  });
+
   return (
     <div id="projects" className="border-b bg-base-100 pb-4 border-base-300">
-      <h2 className="my-20 text-center text-4xl">Projects</h2>
+      <motion.h2
+      whileInView={{opacity: 1, y: 0}}
+      initial={{opacity: 0, y: -100}}
+      transition={{duration: 1.5}}
+      className="my-20 text-center text-4xl">Projects</motion.h2>
       <div className="container mx-auto">
         <div className="flex flex-wrap items-center justify-center gap-4">
           {PROJECTS.map((project, index) => (
-            <div
+            <motion.div
+            variants={projects(1.5)}
+            initial="hidden"
+            animate="visible"
               key={index}
               className="card w-96 mb-8 bg-base-100 shadow-xl lg:justify-center"
             >
@@ -40,7 +61,7 @@ const Projects = () => {
                   <button className="btn btn-secondary">View Site</button>
                 </div>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
