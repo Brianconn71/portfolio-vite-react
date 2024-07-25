@@ -1,7 +1,7 @@
 import project1 from "../assets/images/asylum_data.png";
 import project2 from "../assets/images/olympic_data.png";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project3 from "../assets/images/dunmore.png";
+import project4 from "../assets/images/townley.png";
 
 export const HERO_CONTENT = `I am an enthusiastic and passionate Software Engineer with a desire to build highly scalable Infrastructure and applications. I have a wide range of experience in Fronttend development, Backend Development and Full-Stack. I have embarked on a journey to understand and use Statistics and Machine Learning principles to understand data and to help influence decisions.With 3 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My biggest Passion lies in Python and the wide range of applications that can be built using various python frameworks such as Django, Flask, FastApi and Streamlit. I have completed a Masters degree in Cloud Computing in which I received a first class honours Grade. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 

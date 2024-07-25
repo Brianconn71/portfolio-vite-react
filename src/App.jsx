@@ -14,9 +14,9 @@ function App() {
     <Navbar />
     <Hero />
     <About />
-    <Technologies />
     <Experience />
     <Education />
+    <Technologies />
     <Projects />
     <Footer />
     </div>
