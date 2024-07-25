@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../assets/Brian_Connolly-logo.png'
 import { FaLinkedin, FaGithub, FaMedium, FaTwitterSquare } from 'react-icons/fa'
+import { CONTACT } from '../constants'
 
 const Footer = () => {
   return (
@@ -8,9 +9,18 @@ const Footer = () => {
       <aside>
       <a href="https://brianconnolly.dev"><img src={logo} className="w-40" alt="Brian connolly.dev logo" /></a>
         <p className="font-bold">
-          Brian Connolly
-          <br />
-          Full-Stack Developer & Engineer
+          <h2 className="text-center font-medium text-4xl">Get in touch</h2>
+          <div className="text-center">
+            <p className="my-4">
+              {CONTACT.address}
+            </p>
+            <p className="my-4">
+              <a href="	https://wa.me/353863268858" target="_blank" rel="noopener noreferrer">{CONTACT.phoneNo}</a>
+            </p>
+            <p className="my-4">
+              <a href="mailto:brian@brianconnolly.dev" className="border-b">{CONTACT.email}</a>
+            </p>
+          </div>
         </p>
         <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
       </aside>
