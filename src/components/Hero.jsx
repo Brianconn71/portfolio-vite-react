@@ -1,5 +1,6 @@
 import React from 'react'
 import heroImage from '../assets/images/Brian Connolly Software Developer & Engineer.png'
+import CV from '../assets/cv/Curriculum Vitae of Brian Connolly.pdf'
 import { HERO_CONTENT } from '../constants'
 
 const Hero = () => {
@@ -18,7 +19,10 @@ const Hero = () => {
             <p className="my-2 max-w-xl py-6 font-light">
                 {HERO_CONTENT}
             </p>
-            <button className="btn btn-secondary">Get Started</button>
+            <div className='space-x-6'>
+              <button className="btn btn-primary">Watch My Introduction</button>
+              <a href={CV} download="Brian-Connolly-CV" target="_blank" rel="noopener noreferrer"><button className="btn btn-secondary">Download My CV</button></a>
+            </div>
             </div>
         </div>
     </div>
