@@ -36,7 +36,7 @@ const Hero = () => {
             variants={container(0.5)}
             initial="hidden"
             animate="visible"
-            className="pb-16 text-6xl font-medium lg:mt-16 lg:text-8xl"
+            className="pb-12 text-6xl font-medium lg:mt-16 lg:text-7xl"
           >
             Brian Connolly
           </motion.h1>
@@ -52,7 +52,7 @@ const Hero = () => {
             variants={container(1.5)}
             initial="hidden"
             animate="visible"
-            className="my-2 max-w-xl py-6 font-light"
+            className="my-2 max-w-xl py-4 font-light"
           >
             {HERO_CONTENT}
           </motion.p>
