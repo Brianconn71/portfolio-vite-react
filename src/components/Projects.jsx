@@ -3,10 +3,7 @@ import { PROJECTS } from "../constants";
 
 const Projects = () => {
   return (
-    <div
-      id="projects"
-      className="border-b bg-base-100 pb-4 border-base-300"
-    >
+    <div id="projects" className="border-b bg-base-100 pb-4 border-base-300">
       <h2 className="my-20 text-center text-4xl">Projects</h2>
       <div className="container mx-auto">
         <div className="flex flex-wrap items-center justify-center gap-4">
